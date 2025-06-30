@@ -27,7 +27,14 @@
   <br />
   <button onclick="exportToJsonFile()">Export Quotes to JSON</button>
 
-  <div id="notification"></div>
+  <div id="notification" style="display: none">
+      <h3>detect conflict!</h3>
+      <p>
+        Multiple versions of this quote were found. Please select the version you want to keep.
+      </p>
+      <div id="conflictOptions"></div>
+      <button onclick="resolveConflict()">Apply Selected</button>
+    </div>
 
   <script src="script.js"></script>
 </body>
