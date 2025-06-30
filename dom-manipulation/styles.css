@@ -1,0 +1,23 @@
+ body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      padding: 20px;
+    }
+    #quoteDisplay {
+      padding: 20px;
+      margin: 15px 0;
+      background: #fff;
+      border-left: 4px solid #007bff;
+    }
+    input, select, button {
+      padding: 8px;
+      margin: 5px;
+    }
+    #notification {
+      display: none;
+      background-color: #d1ecf1;
+      border-left: 4px solid #0c5460;
+      padding: 10px;
+      margin-top: 10px;
+    }
+  
